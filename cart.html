@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | ShopEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">ShopEase</h2>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html" class="active">Cart</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Your Shopping Cart</h1>
+    <p>Review your selected products before checkout.</p>
+</section>
+
+<section class="cart-container">
+
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="cartItems">
+            <!-- JavaScript will display cart items here -->
+        </tbody>
+
+    </table>
+
+    <div class="cart-summary">
+
+        <h2>Order Summary</h2>
+
+        <p>
+            Total Items :
+            <span id="totalItems">0</span>
+        </p>
+
+        <p>
+            Grand Total :
+            ₹<span id="grandTotal">0</span>
+        </p>
+
+        <button id="checkoutBtn">
+            Proceed to Checkout
+        </button>
+
+        <button id="clearCartBtn">
+            Clear Cart
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>
+        © 2026 ShopEase |
+        Final Internship Project by Sneha Mali 
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | ShopEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">ShopEase</h2>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Product Catalog</h1>
+    <p>Search, filter, and explore products dynamically.</p>
+</section>
+
+<section class="controls">
+    <input type="text" id="searchInput" placeholder="Search products...">
+
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="electronics">Electronics</option>
+        <option value="fashion">Fashion</option>
+        <option value="accessories">Accessories</option>
+    </select>
+</section>
+
+<section class="product-grid" id="productGrid">
+    <!-- Products will be loaded by JavaScript -->
+</section>
+
+<footer>
+    <p>© 2026 ShopEase | Final Internship Project by Sneha Mali</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
